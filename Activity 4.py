@@ -1,7 +1,7 @@
 
 while True:
     try:
-        money = int(input("Enter amount: "))
+        money = float(input("Enter amount: "))
 
 
         source = input("Enter source currency code (usd, eur, jpy, gbp, aud, cad, chf, cny, sek, nzd, php, krw, sgd, inr, rub, try, brl, zar, hkd): ").lower()
